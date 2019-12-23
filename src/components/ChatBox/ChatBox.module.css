@@ -1,0 +1,69 @@
+.chatBox {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-left: 0.5px solid #a5a2a280;
+  background-color: #ededed;
+}
+
+.chatHeader {
+  display: flex;
+  align-items: center;
+  margin-left: 2px;
+  border-right: 1px solid rgba(248, 236, 248, 0.867);
+}
+.avatar {
+  margin: 10px;
+  cursor: pointer;
+}
+.dropdown svg {
+  height: 45px;
+  margin-left: 12px;
+  margin-right: 13px;
+}
+.navSelect {
+  display: flex;
+  align-items: center;
+  margin-left: 210px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.search {
+  padding: 2px 20px 2px 5px;
+  background-color: #eff0eb;
+  border-bottom: 1px solid #ededed;
+}
+.input input {
+  border-radius: 20px;
+  margin-left: 8px;
+  height: 25px;
+  border: 1px solid #fff;
+}
+.chatArrayContainer {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+.chatArrayContainer::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.chatArrayContainer::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+.chatArrayContainer::-webkit-scrollbar-thumb {
+  background: #ededed;
+}
+
+/* Handle on hover */
+.chatArrayContainer::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 147, 133);
+}

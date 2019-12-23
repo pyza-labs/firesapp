@@ -1,0 +1,150 @@
+.messagePanel {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-left: 0.5px solid #a5a2a280;
+  background-color: #ededed;
+  cursor: pointer;
+}
+.messageHeader {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  margin: 10px 16px;
+}
+.background {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  background-image: url("../../assets/images/whatsapp-chat-background-png.jpg");
+  padding: 4px;
+  flex: 1;
+  overflow-y: scroll;
+}
+.receiveMessage {
+  background-color: #dcf8c6;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 0px 8px 8px 8px;
+  display: flex;
+  margin-top: 1px;
+  margin-right: auto;
+  max-width: 30%;
+  width: fit-content;
+  margin-left: 4px;
+  margin-bottom: 2px;
+  justify-content: space-between;
+}
+.sendMessage {
+  background-color: #dcf8c6;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 8px 0 8px 8px;
+  display: flex;
+  margin-top: 1px;
+  margin-left: auto;
+  margin-right: 4px;
+  max-width: 30%;
+  width: fit-content;
+  margin-bottom: 2px;
+  justify-content: space-between;
+}
+.sectionName {
+  background-color: rgba(225, 245, 254, 0.92);
+  text-align: center;
+  align-self: center;
+  padding: 4px;
+  margin: 4px;
+  font-size: 10px;
+}
+.messages {
+  display: flex;
+  flex-direction: column;
+}
+.time {
+  font-size: 0.7em;
+  margin-left: 12px;
+  color: #a8a29b;
+}
+.input {
+  padding: 5px 20px;
+  background-color: #ededed;
+}
+.input input {
+  border-radius: 20px;
+  border: 1px solid #fff;
+}
+
+.background::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.background::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+.background::-webkit-scrollbar-thumb {
+  background: #ededed;
+}
+
+/* Handle on hover */
+.background::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 147, 133);
+}
+
+/* Profile Side Drawer */
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow-x: hidden;
+}
+.avatarContainer {
+  margin-bottom: 4px;
+  align-self: center;
+}
+
+.nameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 15px 15px 15px 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  margin-bottom: 10px;
+  padding: 8px;
+}
+.yourName {
+  color: rgb(0, 147, 133);
+  font-size: 12px;
+}
+
+.infoText {
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.45);
+  margin: 10px;
+}
+.status {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  margin-top: 15px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+.about {
+  margin: 10px 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  padding: 10px;
+}

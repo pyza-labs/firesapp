@@ -1,0 +1,49 @@
+.loginNav {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+.loginNav h2 {
+  color: #009385;
+  font-family: "Inconsolata", monospace;
+}
+.welcome {
+  justify-content: center;
+  margin-top: 120px;
+  display: flex;
+}
+.welcome h1 {
+  font-family: "Quicksand", sans-serif;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.login {
+  padding: 0 200px 200px 200px;
+  margin: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-left: 0.5px solid #a5a2a280;
+  background-color: #d6dbd9;
+  height: 50px;
+}
+.input,
+.input input {
+  margin-bottom: 8px;
+  border-top: 0 none;
+  border-right: 0 none;
+  border-left: 0 none;
+  width: 300px;
+}
+.buttonDiv {
+  margin-top: 4px;
+}
+.button {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
