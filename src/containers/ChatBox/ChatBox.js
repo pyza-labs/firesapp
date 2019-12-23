@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Styles from "./ChatBox.module.css";
 import ChatItem from "../ChatItem/ChatItem";
 import { Menu, Dropdown, Icon, Avatar, Input } from "antd";
-import { cloud } from "../../services/firebase/firebase";
 import moment from "moment";
 
 const ChatBox = props => {

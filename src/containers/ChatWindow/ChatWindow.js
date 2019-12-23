@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Styles from "./ChatWindow.module.css";
-import ChatBox from "../../components/ChatBox/ChatBox";
-import MessagePanel from "../../components/MessagePanel/MessagePanel";
+import ChatBox from "../ChatBox/ChatBox";
+import MessagePanel from "../MessagePanel/MessagePanel";
 import { cloud } from "../../services/firebase/firebase";
-import { Drawer, Avatar, Card } from "antd";
+import { Drawer, Avatar } from "antd";
 
 const ChatWindow = props => {
   const [chatSelect = false, setChatSelect] = useState();
